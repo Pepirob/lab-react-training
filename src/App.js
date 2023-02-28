@@ -1,4 +1,5 @@
 import './App.css';
+import BoxColor from './components/BoxColor';
 import Greetings from './components/Greetings';
 import IdCard from './components/IdCard';
 import Random from './components/Random';
@@ -36,6 +37,10 @@ function App() {
         <Random min={6} max={8} />
         <Random min={6} max={8} />
         <Random min={6} max={8} />
+      </section>
+      <section>
+        <BoxColor r={255} g={0} b={0} />
+        <BoxColor r={128} g={255} b={0} />
       </section>
     </div>
   );
