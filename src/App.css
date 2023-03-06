@@ -19,3 +19,38 @@
   width: 200px;
   height: 100px;
 }
+
+.profile-image {
+
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  object-fit: cover;
+}
+
+.driver-container {
+  display: flex;
+  justify-content: center;
+  background-color: #455EB5;
+  margin: 1.5rem;
+  padding: 1rem;
+  border-radius: 0.4rem;
+  max-width: 70%;
+  margin: 1rem auto;
+}
+
+.driver-info h4,
+p {
+  color: white;
+  margin: 0.2rem;
+}
+
+.driver-info {
+  min-width: 55%
+}
+
+.like-button button {
+  width: 8rem;
+  height: 3.5rem;
+  font-size: 1.3rem;
+}
